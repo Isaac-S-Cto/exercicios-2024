@@ -237,6 +237,9 @@ p#rpHeader {
 
       border-radius: 4px;
       opacity: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     #fav,
     #doi {
@@ -592,14 +595,11 @@ p#rpHeader {
   z-index: -1;
   position: relative;
   top: 1450px;
-  margin-left: 1.2rem;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: 16rem;
+
   background: rgba(255, 255, 255, 1);
   color: #fff;
-  padding: 10px;
-  text-align: right;
 
   img {
     width: 1086px;
